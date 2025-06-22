@@ -94,7 +94,7 @@
 **5.2** The User is obligated to cooperate in resolving technical problems.<br>
 **5.3** Preferred contact channels are:<br>
 - technical support server<br>
-- email message to `thallium@proton.me`. The message should indicate that it concerns Riplrr.<br>
+- email message to `thallium.studio@proton.me`. The message should indicate that it concerns Riplrr.<br>
 **5.4** The standard response time for reports is up to 7 business days.<br>
 **5.5** Users are asked to resolve any matter and dispute informally without engaging legal means through the contact described in point 5.3.<br><br>
 
