@@ -1,41 +1,104 @@
-# Privacy Policy
-By using our services, you automatically consent to all provisions in our privacy policy.
+By using our services, you automatically agree to all provisions of this Privacy Policy.  
+This document may be edited at any time. Users will be informed about any changes. Continued use of the services means acceptance of the new version.
+
+## Legal basis for data processing
+
+We process your personal data based on:
+
+- Your consent (e.g., logging in via Discord OAuth2),  
+- Performance of a contract or service (e.g., bot and dashboard operation),  
+- Legitimate interests (e.g., security, abuse prevention),  
+- Compliance with legal obligations (if applicable).
 
 ## What data do we collect?
-| Data collected | Purpose of data collection | Where do we collect data |
-|----------------|----------------------|----------------------|
-| Username; profile picture; information about the servers to which the user belongs (ID, name, picture, banner, users, channels, roles) | Showing information in the dasboard after logging in | Dashboard (requires authorization) |
-| User ID | Storing user configuration and data (excluding sensitive data) | Bot and dashboard (requires authorization) |
-| Server ID | Storing server configuration | Bot and dashboard (requires authorization) |
-| User language | Adjusting the language of the bot and dashboard | Bot and dashboard (requires authorization) |
-| User actions in the dashboard, on the Discord server and API requests | Logs of actions and queries | Bot, dashboard and API (after authorization) |
-| IP address (temporarily stored, anonymized) | Security: DDoS and abuse protection | API |
-| Discord access token (encrypted) | Used to authorize the user via Discord OAuth2 and to provide continuous access to their data without requiring reauthentication. | Stored securely in our database (encrypted) |
 
-> Additional Information: You can safely delete your Discord access token from our databases. To permanently delete it, go to the `/revoke-token` endpoint in our API.
+- **Username, avatar, information about servers the user belongs to** (ID, name, image, banner, users, channels, roles)  
+  Purpose: Displaying information on the dashboard after login  
+  Collection point: Dashboard (requires authorization)
+
+- **User ID**  
+  Purpose: Storing user configuration and data (excluding sensitive data)  
+  Collection point: Bot and dashboard (requires authorization)
+
+- **Server ID**  
+  Purpose: Storing server configuration  
+  Collection point: Bot and dashboard (requires authorization)
+
+- **User language**  
+  Purpose: Adjusting language of bot and dashboard  
+  Collection point: Bot and dashboard (requires authorization)
+
+- **User actions on the dashboard, Discord server, and API requests**  
+  Purpose: Logging actions and queries  
+  Collection point: Bot, dashboard and API (after authorization)
+
+- **IP address (stored temporarily, anonymized)**  
+  Purpose: Security: protection against DDoS and abuse  
+  Collection point: API
+
+- **Discord access token (encrypted)**  
+  Purpose: Authorizing the user via Discord OAuth2 and enabling continuous access without re-login  
+  Storage: Securely in our database (encrypted)
+
+Additional info: You can safely delete your Discord access token from our databases. To permanently delete it, use the `/revoke-token` endpoint in our API.
+
+## User rights (under GDPR)
+
+You have the right to:
+
+- Access your personal data – request information about the data we process about you.  
+- Rectify your data – correct or complete any inaccurate or incomplete data.  
+- Delete your data ("right to be forgotten") – request deletion under certain circumstances.  
+- Restrict processing – ask to limit processing of your data in specific cases.  
+- Data portability – receive data you provided in a structured format or have it transferred to another controller.  
+- Object to processing – raise objections based on your situation.  
+- Withdraw consent – if processing is based on consent, you can withdraw it anytime without affecting prior legality.
+
+To exercise your rights, contact us on the support server or email: **thallium.studio@proton.me**  
+Subject line must start with:  
+- `[DATA_REQUEST]` – to obtain your data  
+- `[DATA_DELETION_REQUEST]` – to delete your data
 
 ## Where do we store data?
+
 User data is stored in our secured databases.
 
-## How do I delete data?
-To delete your data from our systems, please contact us on the support server or write us an email at **riplrr.dev@gmail.com**
-**The subject of the email must start with: [DATA_DELETION_REQUEST]**.
+## How to delete my data?
 
-> [!IMPORTANT]
-> We do not delete all user data. We always leave data regarding the moderation system and any penalties, restrictions or other information issued to the user.
+To delete your data from our systems, contact us on the support server or email: **thallium.studio@proton.me**  
+Subject must start with: `[DATA_DELETION_REQUEST]`
 
-## Can I see all the data that concerns me and that you store?
-To obtain all the data we have stored about you in our systems, please contact us on the support server or write us an email at **riplrr.dev@gmail.com**
-**The subject of the email must start with: [DATA_REQUEST]**.
+Important: We do not delete all user data. We always retain information about moderation, penalties, restrictions, and other related data because we are not authorized to edit data from other servers.
 
-### How long does it take?
-We process data deletion and access requests within 30 calendar days.
+## Can I see all the data you store about me?
 
-### Verification
-For security reasons, we may ask you to verify your identity before processing the request.
+To get a copy of all data we store about you, contact us on the support server or email: **thallium.studio@proton.me**  
+Subject must start with: `[DATA_REQUEST]`
 
----
+## How long does it take?
 
-This document is part of the Riplrr project and may be updated or modified at any time without prior notice.
+We process data deletion and access requests within 30 calendar days of receiving the request.  
+Time spent on verification or waiting for your response is not included.
 
-Riplrr © 2025. All rights reserved.
+## Verification
+
+For security, we may ask you to verify your identity before processing your request.  
+We reserve the right to refuse the request if identity cannot be confirmed. If so, please try again.
+
+## Cookie Policy
+
+By using our services, you automatically agree to all provisions of this Cookie Policy.
+
+### What data do we use?
+
+- **User token (from our API)**  
+  Purpose: Authorizing the user in our API  
+  Used in: Dashboard via API
+
+- **Token expiration date**  
+  Purpose: Automatically refreshing the token during login (we **never** refresh it without user action)  
+  Used in: Dashboard via API
+
+### Where do we store data?
+
+All cookies are securely stored in your browser with the `httpOnly` and `Secure` flags enabled, ensuring the highest level of protection from unauthorized access.
