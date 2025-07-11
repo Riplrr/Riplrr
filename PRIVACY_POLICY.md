@@ -1,4 +1,4 @@
-LAST_UPDATE: 11.07.2025
+LAST_UPDATE: 11.07.2025  
 ENTERED: 12.07.2025
 
 By using our services, you automatically agree to all provisions of this Privacy Policy.  
