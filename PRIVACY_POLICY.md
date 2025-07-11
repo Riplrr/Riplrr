@@ -1,3 +1,6 @@
+LAST_UPDATE: 11.07.2025
+ENTERED: 12.07.2025
+
 By using our services, you automatically agree to all provisions of this Privacy Policy.  
 This document may be edited at any time. Users will be informed about any changes. Continued use of the services means acceptance of the new version.
 
