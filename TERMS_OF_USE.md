@@ -1,10 +1,13 @@
+LAST_UPDATE: 09.07.2025  
+ENTERED: 10.07.2025 
+
 ### Definitions<br>
-**0.1 Service Provider**:  the Riplrr team and Thallium team responsible for developing and maintaining the service.<br><br>
-**0.2 Application**: the applications Riplrr#5471 with ID 1373704955327942656 and Riplrr Beta#5204 with ID 1373705050915995738 operating on the Discord platform.<br><br>
-**0.3 User**: a natural person using the Application.<br><br>
-**0.4 Server**: a community instance on the Discord platform where the Application has been installed by the User.<br><br>
-**0.5 Website**: the web service operating at riplrr.pages.dev.<br><br>
-**0.6 Services**: the Application and Website operated by the Service Provider.<br><br>
+**0.1 Service Provider**:  the Riplrr team and Thallium team responsible for developing and maintaining the service.<br>
+**0.2 Application**: the applications Riplrr#5471 with ID 1373704955327942656 and Riplrr Beta#5204 with ID 1373705050915995738 operating on the Discord platform.<br>
+**0.3 User**: a natural person using the Application.<br>
+**0.4 Server**: a community instance on the Discord platform where the Application has been installed by the User.<br>
+**0.5 Website**: the web service operating at riplrr.pages.dev.<br>
+**0.6 Services**: the Application and Website operated by the Service Provider.<br>
 
 ### 1. General provisions<br>
 **1.1** These Terms of Service define the rules for using the Services provided by the Service Provider on the Discord platform.<br>
